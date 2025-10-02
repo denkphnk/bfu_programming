@@ -13,9 +13,6 @@ int main() {
     int intV = 32;
     int minInt = pow(2, 31) * (-1);
     int maxInt = pow(2, 31) -1;
-    
-    setlocale(LC_ALL, "ru_RU.UTF-8");
-
 
     cout << "Середина интервала: " << ans << "\n\n";
     
