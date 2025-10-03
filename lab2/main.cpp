@@ -7,6 +7,8 @@ int main() {
   short A;
   int i;
 
+  setlocale(LC_ALL, "Russian");
+  
   std::cin >> A >> i;
   if (i >= 0 && i < 8) {
     int bit = (A >> i) & 1;
